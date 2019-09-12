@@ -4,7 +4,7 @@
        <delete dir="build" /> <!-- clean -->
     </target>
 
-    <target name="compile" depends="clean">
+    <target name="compile" dependsssssssssssssssssss="clean">
         <echo> Java Compile task </echo>
        <mkdir dir="build/classes" /> 
          <javac srcdir="src" destdir="build/classes" /> <!-- java compile -->
